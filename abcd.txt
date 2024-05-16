@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upcoming Election Results</title>
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        /* Navigation */
+        .navbar {
+            background-color: #000;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .navbar ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .navbar ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        .navbar ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        .navbar ul li a:hover {
+            color: #ccc;
+        }
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        /* Table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+        th, td {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+            text-align: left;
+        }
+        th {
+            background-color: #007bff;
+            color: #fff;
+        }
+        /* Footer */
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 0.8em;
+            color: #777;
+        }
+        /* Image */
+        .state-image {
+            width: 50px;
+            height: auto;
+        }
+	{
+	.state {
+	width:200px
+	height:500px
+	}
+}
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-image:url('C:\Users\student\Pictures\bg.jpg');
+            background-size:cover;
+	    background-position:center;
+            
+        }
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        /* Header */
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #007bff;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        /* Paragraph */
+        p {
+            margin-bottom: 20px;
+        }
+        /* Link */
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="navbar">
+        <ul>
+            <li><a href="https://chatgpt.com/">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+	
+    <div class="container">
+        <header>
+            <h1>Upcoming Election Results</h1>
+	
+        </header>
+<header>
+       
+        </header>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>City</th>
+                    <th>Date</th>
+                    <th>Expected Results</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="C:\Users\student\Desktop\DELHI GATE.jpg" alt="Delhi" class="state-image"> Delhi</td>
+                    <td>May 20, 2024</td>
+                    <td>Results Pending</td>
+                </tr>
+                <tr>
+                    <td><img src="C:\Users\student\Desktop\Vidhana_Soudha.jpg" alt="Bengaluru" class="state-image">Bengaluru</td>
+                    <td>June 3, 2024</td>
+                    <td>Results Pending</td>
+                </tr>
+                <tr>
+                    <td><img src="C:\Users\student\Desktop\KOLKATA.jpg" alt="Kolkata" class="state-image"> Kolkata</td>
+                    <td>June 10, 2024</td>
+                    <td>Results Pending</td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+    </div>
+ 
+</body>
+</html>
